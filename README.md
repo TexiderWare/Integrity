@@ -1,4 +1,4 @@
 # Integrity
-Integrity - MTProject Plugin Loader System 
+Integrity - MTProject Minecraft Plugin Loader System 
 
 Public Version
