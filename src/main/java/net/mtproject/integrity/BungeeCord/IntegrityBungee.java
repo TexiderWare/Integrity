@@ -11,13 +11,10 @@ public class IntegrityBungee extends Plugin {
 
     @Override
     public void onEnable() {
-        // Core'u başlat
         this.core = new IntegrityCore();
 
-        // ACF'yi başlat
         this.commandManager = new BungeeCommandManager(this);
 
-        // Komutları kaydet
         commandManager.registerCommand(new BungeeCommand());
     }
 }

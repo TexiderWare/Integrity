@@ -13,7 +13,7 @@ import net.mtproject.integrity.Velocity.Commands.VelocityCommand;
         id = "integrity",
         name = "Integrity",
         version = "0.1",
-        authors = {"Your Name"}
+        authors = {"MTProject Industries Dev Team"}
 )
 public class IntegrityVelocity {
     private final ProxyServer server;
@@ -27,13 +27,10 @@ public class IntegrityVelocity {
 
     @Subscribe
     public void onProxyInitialization(ProxyInitializeEvent event) {
-        // Core'u başlat
         this.core = new IntegrityCore();
 
-        // ACF'yi başlat
         this.commandManager = new VelocityCommandManager(server, this);
 
-        // Komutları kaydet
         commandManager.registerCommand(new VelocityCommand());
     }
 }
