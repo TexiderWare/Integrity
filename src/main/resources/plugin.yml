@@ -1,0 +1,4 @@
+name: Integrity
+version: '${project.version}'
+main: net.mtproject.integrity.Bukkit.IntegrityBukkit
+api-version: '1.13'

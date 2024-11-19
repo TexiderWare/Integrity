@@ -1,0 +1,33 @@
+# Default plugins are MTPVisibility, KyroxAC
+# Here are all the plugins, if a plugin isn't present here then simply follow this format
+#
+# PLUGINS: (If it's a plugin)
+#  PLUGIN-NAME:
+#    ENABLED: true
+#    VERSION: autoupdate
+#
+# ADDONS: (If it's an addon)
+#  ADDON-NAME:
+#    ENABLED: true
+#    VERSION: autoupdate
+
+PLUGINS:
+  # ⚡ MTPVisibility Network Core ⚡
+  #
+  # Available at: https://mtproject.net/resources/mtpvisibility.1/
+  MTPVisibility:
+    ENABLED: true
+    VERSION: autoupdate
+
+  # ⚡ Kyrox Anti-Cheat ⚡
+  # An extremely affordable solution to cheaters and hackers
+  # Available at: https://kyrox.ac/
+  KyroxAC:
+    ENABLED: true
+    VERSION: autoupdate
+
+# Addons to the above-mentioned plugins
+ADDONS:
+  Quark:
+    ENABLED: false
+    VERSION: autoupdate

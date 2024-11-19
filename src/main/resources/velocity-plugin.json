@@ -1,0 +1,7 @@
+{
+  "id": "integrity",
+  "name": "Integrity",
+  "version": "${project.version}",
+  "main": "net.mtproject.integrity.Velocity.IntegrityVelocity",
+  "dependencies": []
+}
