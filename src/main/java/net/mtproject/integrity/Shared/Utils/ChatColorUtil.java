@@ -51,7 +51,6 @@ public class ChatColorUtil {
     public static Component colorVelocity(String message) {
         if (message == null) return Component.empty();
 
-        // Önce hex renkleri işle
         Matcher matcher = HEX_PATTERN.matcher(message);
         StringBuffer buffer = new StringBuffer();
 
